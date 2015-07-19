@@ -1,7 +1,13 @@
-# facebook-profile
+# Facebook Profile Application
 
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.11.1.
+
+## Install necessary components
+
+1) Go to project's diretory
+2) Install bower components: `bower install`
+3) Install node modules: `npm install`
 
 ## Build & development
 
