@@ -41,7 +41,7 @@ angular.module('facebookProfileApp')
       },
 
       getFriendsList: function() {
-        var url = '/100001056348407/friends';
+        var url = '/me/friends';
         var method = 'GET';
         var dataObject = {};
         return callFacebookAPI( url, method, dataObject );
