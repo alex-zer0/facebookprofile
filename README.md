@@ -5,7 +5,7 @@ version 0.11.1. Using facebook API.
 
 ## Install necessary components
 
-1) Go to project's diretory
+1) Go to project's directory
 
 2) Install bower components: `bower install`
 
