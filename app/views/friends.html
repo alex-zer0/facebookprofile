@@ -1,0 +1,8 @@
+<h1>FRIENDS</h1>
+
+<div class="friends-wrapper">
+    <div class="friend" ng-repeat="friend in friends | friendsFilter:searchOptions.array">
+        <p><strong>Имя:</strong> {{friend.firstName}}</p>
+        <p><strong>Фамилия:</strong> {{friend.lastName}}</p>
+    </div>
+</div>

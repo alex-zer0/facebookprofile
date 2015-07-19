@@ -1,0 +1,10 @@
+<h1>PUBLISH</h1>
+
+<publish-form></publish-form>
+
+<div class="posts-wrapper" ng-if="posts">
+    <div ng-repeat="post in posts">
+        <p>{{post.message}}</p>
+        <img ng-if="post.picture" ng-src="{{post.picture}}" alt="{{post.id}}" />
+    </div>
+</div>
